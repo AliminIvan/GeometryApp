@@ -28,5 +28,7 @@ public class GeometryAppDemo {
 
         boolean result = GeometryUtils.areAreasEqual(circle.getArea(), new Circle(5).getArea());
         System.out.println(result);
+
+        System.out.println(GeometryUtils.convertCentimetersToMeters(1000));
     }
 }
