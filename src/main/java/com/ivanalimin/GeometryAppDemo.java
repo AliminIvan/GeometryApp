@@ -12,7 +12,7 @@ public class GeometryAppDemo {
     public static void main(String[] args) {
         Circle circle = new Circle(5);
         Rectangle rectangle = new Rectangle(4, 6);
-        Triangle triangle = new Triangle(3, 4, 5);
+        Triangle triangle = new Triangle(1, 1, 10);
 
         System.out.println("Circle area: " + circle.getArea());
         System.out.println("Circle perimeter: " + circle.getPerimeter());
