@@ -1,9 +1,6 @@
 package com.ivanalimin;
 
-import com.ivanalimin.geometry.Circle;
-import com.ivanalimin.geometry.GeometryUtils;
-import com.ivanalimin.geometry.Rectangle;
-import com.ivanalimin.geometry.Triangle;
+import com.ivanalimin.geometry.*;
 
 /*
  В проекте "GeometryApp" создайте приложение, которое использует библиотеку "GeometryLibrary".
@@ -30,5 +27,12 @@ public class GeometryAppDemo {
         System.out.println(result);
 
         System.out.println(GeometryUtils.convertCentimetersToMeters(1000));
+
+        Cube cube = new Cube();
+        cube.draw();
+
+        Sphere sphere = new Sphere();
+        sphere.draw();
+
     }
 }
